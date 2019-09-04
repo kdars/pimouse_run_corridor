@@ -103,7 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES pimouse_run_corridor
-#  CATKIN_DEPENDS other_catkin_pkg
+   CATKIN_DEPENDS pimouse_ros #ther_catkin_pkg
 #  DEPENDS system_lib
 )
 
